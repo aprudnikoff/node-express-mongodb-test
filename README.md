@@ -8,7 +8,7 @@ Useful links
 [package.json cheatsheet](http://package.json.nodejitsu.com/)
 
 ### MongoDB
-[The little MongoDB book](https://github.com/jsmarkus/the-little-mongodb-book/blob/master/ru/mongodb.markdown some ) text
+[The little MongoDB book](https://github.com/jsmarkus/the-little-mongodb-book/blob/master/ru/mongodb.markdown) [RU]
 
 ### Stuff
-[Markdown syntax](http://ru.wikipedia.org/wiki/Markdown)
+[Markdown syntax](http://ru.wikipedia.org/wiki/Markdown) [EN]
