@@ -1,6 +1,7 @@
 {
 	"name": "express-test",
 	"version": "0.0.1",
+	"private": true,
 	"author": "Andrey Prudnikov <a.prudnikov@gmail.com>",
 	"description": "Test application: node.js, express, MongoDB",
 	"bin": {
@@ -27,6 +28,7 @@
 	},
 	"devDependencies": {},
 	"engines": {
-		"node": ">1.0.0"
+		"node": ">0.10.x",
+		"npm": "1.1.x"
 	}
 }
