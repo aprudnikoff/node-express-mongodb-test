@@ -8,15 +8,19 @@ var
 app.set('views', __dirname + '/views');
 app.engine('ejs', engine);
 app.set('view engine', 'ejs');
+
+
 app.use(express.bodyParser());
 app.use(express.static(__dirname + '/public'));
 app.use(app.router);
 
 
+// Routes
 app.get('/', pages.home);
 app.get('/login', pages.login);
+// 404
 app.get('*', function (req, res) {
-	res.send('404?');
+	res.send('404?', 404);
 });
 
 

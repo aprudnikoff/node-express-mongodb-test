@@ -7,17 +7,18 @@
 	<%-scripts%>
 
 	<link rel="stylesheet" href="/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="/css/styles.css" />
 	<%-stylesheets%>
 </head>
 <body>
-	<header>
-		<%-blocks.header%>
-	</header>
-	<section>
-		<%-body -%>
-	</section>
-	<footer>
-		<%-blocks.footer%>
-	</footer>
+	<div class="container">
+		<% include header %>
+
+		<section>
+			<%-body -%>
+		</section>
+
+		<% include footer %>
+	</div>
 </body>
 </html>

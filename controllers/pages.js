@@ -1,3 +1,7 @@
+function getRoute(req) {
+	return req.route.path;
+}
+
 var home = function(req, res) {
 	// res.render('home', {
 	// 	title: 'sometitle',
@@ -5,7 +9,10 @@ var home = function(req, res) {
 	// });
 	res.render('index', {
 		who: 'me',
-		what: 'best'
+		what: 'best',
+		global: {
+			route: getRoute(req)
+		}
 	});
 };
 var login = function(req, res) {
