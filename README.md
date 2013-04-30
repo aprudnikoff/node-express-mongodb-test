@@ -11,7 +11,7 @@ Useful links
 * [Руководства по Node.js](http://nodeguide.ru/doc/)
 
 ### Express
-* [Express API] (http://expressjs.com/api.html)
+* [Express API](http://expressjs.com/api.html)
 * [Express resources wiki](https://github.com/visionmedia/express/wiki)
 
 * [Getting Started with Express](http://howtonode.org/getting-started-with-express)

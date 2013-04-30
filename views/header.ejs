@@ -2,11 +2,12 @@
 	<div class="navbar">
 		<div class="navbar-inner">
 			<ul class="nav">
-				<li <% if (global.route === '/') { %>class="active"<% } %>><a href="/">Home</a></li>
-				<li><a href="/login">Login</a></li>
+				<% menu.forEach(function(item){ %>
+					<li class="<%= route===item.url ? 'active' : '' %>"><a href="<%= item.url %>"><%= item.title %></a></li>
+				<% }) %>
 			</ul>
 		</div>
 	</div>
-	<%=global.route %>
+	<%=route %>
 	<%-blocks.header %>
 </header>

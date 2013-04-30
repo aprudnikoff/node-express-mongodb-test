@@ -7,16 +7,16 @@ var home = function(req, res) {
 	// 	title: 'sometitle',
 	// 	message: 'somemessage'
 	// });
-	res.render('index', {
+	res.render('pages/index', {
 		who: 'me',
-		what: 'best',
-		global: {
-			route: getRoute(req)
-		}
+		what: 'best'
 	});
 };
 var login = function(req, res) {
-	res.send('login');
+	res.render('pages/login', {
+		who: 'me',
+		what: 'best'
+	});
 }
 
 exports.home = home;
