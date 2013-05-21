@@ -1,6 +1,8 @@
 <% layout('../boilerplate') -%>
 
 <h1>I am LOGIN</h1>
+<% include ../parts/login/login-form %>
+<% console.log(locals) %>
 
 <% block('header', "<p>I'm in the header.</p>") -%>
 <% block('footer', "<p>I'm in the footer.</p>") -%>
